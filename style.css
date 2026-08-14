@@ -1,4 +1,22 @@
-     
+     /* Big titles */
+.big-title {
+    font-size: 60px;
+    text-align: center;
+    margin: 150px 0;
+}
+
+/* Reveal animation base */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+}
+
+/* When revealed */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
         body {
                 background-color : black
             margin: 0;
