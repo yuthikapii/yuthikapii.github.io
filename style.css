@@ -23,11 +23,15 @@ body {
     transform: translateY(0);
 }
 .screen-1 .title {
-    color: #EB0028;   /* TEDx red */
+    color: #EB0028; /* TEDx red */
+    text-align : left;
+    font-family : Helvetica, Monospace;
 }
 
 .screen-2 .title {
     color: white;     /* NGHS white */
+    text-align : left;
+    font-family : Helvetica, Monospace;
 }
 
 .title {
