@@ -1,3 +1,4 @@
+
 const screens = document.querySelectorAll('.screen');
 const navbar = document.querySelector('.navbar');
 
