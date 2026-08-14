@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     opacity: 0;
     transform: translateY(40px);
     transition: all 1s ease;
@@ -37,10 +37,8 @@ body {
 
 .title {
      font-size: 18vw;      /* fills the screen */
-    font-weight: 900;     /* cinematic bold */
-    text-transform: uppercase;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: Left;
     margin: 0;
     line-height: 1;
 }
