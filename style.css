@@ -1,11 +1,9 @@
 <style>
-        Background-color
-{
-        background-colour : black
-}
+        
         body {
+                background-colour : black
             margin: 0;
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica;
         }
 
         nav {
@@ -39,7 +37,7 @@
         }
 
         nav ul li a:hover {
-            color: #5B85AA;
+            color: #EB0028;
         }
 
         h1 {
