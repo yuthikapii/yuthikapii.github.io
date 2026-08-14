@@ -1,64 +1,63 @@
-
-/* Big titles */
-.big-title {
-    font-size: 60px;
-    text-align: center;
-    margin: 150px 0;
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Reveal animation base */
-.reveal {
+/* Full-screen sections */
+.screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
     transform: translateY(40px);
     transition: all 1s ease;
 }
 
-/* When revealed */
-.reveal.active {
+.screen.active {
     opacity: 1;
     transform: translateY(0);
 }
-        body {
-                background-color : black
-            margin: 0;
-            font-family: Helvetica;
-        }
 
-        nav {
-            background: #111;
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.title {
+    font-size: 60px;
+    text-align: center;
+}
 
-        nav .logo {
-            color: white;
-            font-size: 22px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
+/* Navbar fade-in */
+.navbar {
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-            margin: 0;
-            padding: 0;
-        }
+.navbar.visible {
+    opacity: 1;
+}
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.3s;
-        }
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
 
-        nav ul li a:hover {
-            color: #EB0028;
-        }
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
 
-        h1 {
-            padding: 40px;
-            text-align: center;
-        }
+.navbar ul li a:hover {
+    color: #EB0028;
+}
