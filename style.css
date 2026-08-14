@@ -1,1 +1,45 @@
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
+        nav {
+            background: #111;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #5B85AA;
+        }
+
+        h1 {
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
