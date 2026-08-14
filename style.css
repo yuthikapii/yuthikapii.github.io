@@ -15,16 +15,29 @@ body {
     opacity: 0;
     transform: translateY(40px);
     transition: all 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .screen.active {
     opacity: 1;
     transform: translateY(0);
 }
+.screen-1 .title {
+    color: #EB0028;   /* TEDx red */
+}
+
+.screen-2 .title {
+    color: white;     /* NGHS white */
+}
 
 .title {
-    font-size: 60px;
+     font-size: 18vw;      /* fills the screen */
+    font-weight: 900;     /* cinematic bold */
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
     text-align: center;
+    margin: 0;
+    line-height: 1;
 }
 
 /* Navbar fade-in */
