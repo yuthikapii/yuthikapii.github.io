@@ -5,7 +5,8 @@ const navbar = document.querySelector('.navbar');
 function handleScroll() {
     screens.forEach((screen, index) => {
         const rect = screen.getBoundingClientRect();
-        if (rect.top < window.innerHeight - 100) {
+if (rect.top < window.innerHeight * 0.6 && rect.bottom > window.innerHeight * 0.4) {
+
             screen.classList.add('active');
         } else {
             screen.classList.remove('active');
