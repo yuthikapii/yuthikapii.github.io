@@ -33,12 +33,15 @@ body {
     text-align : left;
     font-family : Helvetica, Monospace;
     font-weight: lighter;
+    white-space: normal;
+max-width: 80vw;
 }
 
 .title {
      font-size: 18vw;      /* fills the screen */
     letter-spacing: 0.02em;
-    text-align: Left;
+    text-align: left;
+    margin-left: 5vw;
     margin: 0;
     line-height: 1;
 }
