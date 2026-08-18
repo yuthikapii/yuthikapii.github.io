@@ -15,7 +15,8 @@ if (rect.top < window.innerHeight * 0.6 && rect.bottom > window.innerHeight * 0.
 
     // Show navbar after second screen
     const secondScreen = screens[1].getBoundingClientRect();
-    if (secondScreen.top < 0) {
+if (secondScreen.bottom < window.innerHeight * 0.3) {
+
         navbar.classList.add('visible');
     } else {
         navbar.classList.remove('visible');
